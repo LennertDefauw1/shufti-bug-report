@@ -1,3 +1,12 @@
+Probably related to this code inside the kotlin package: 
+
+`  override fun onDetachedFromActivity() {
+    TODO("Not yet implemented")
+  }`
+
+
+
+Stacktrace:
 `D/AndroidRuntime(26825): Shutting down VM
 E/AndroidRuntime(26825): FATAL EXCEPTION: main
 E/AndroidRuntime(26825): Process: org.jimber.threebotlogin, PID: 26825
@@ -32,4 +41,6 @@ E/AndroidRuntime(26825): 	at com.android.internal.os.RuntimeInit$MethodAndArgsCa
 E/AndroidRuntime(26825): 	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:1130)`
 
 
+Flutter doctor:
 ![image](https://user-images.githubusercontent.com/43674202/162000147-09fd3ded-a1d7-4a5f-b1b5-7d51b4e33c1e.png)
+
